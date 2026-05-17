@@ -1,0 +1,20 @@
+Column A: User Behavior,Column B: Risk Level,Column C: Suggestion
+Pays cash in person,Low,Verify ID on site
+[fill more],[fill more],[fill more]
+,,
+"User Behavior,Risk Level,Suggestion",,
+"Pays cash in person,Low,Verify ID on site",,
+"Pays via local agent,Medium,Confirm agent identity",,
+"First‑time user cash payment,Medium,Small order first",,
+"Repeat customer cash payment,Low,Normal process",,
+"Large amount cash,High,Use escrow or split payment",,
+"Remote cash deposit,Medium,Confirm receipt photo",,
+"Local shop cash payment,Low,Use official partner store",,
+"Unverified user cash,High,Require ID photo",,
+"Verified user cash,Low,Fast processing",,
+"Group cash payment,Medium,Check group leader",,
+"Cash before delivery,High,Use trusted third party",,
+"Cash after delivery,Low,Standard process",,
+"Rural area cash payment,Medium,Use local pickup point",,
+"Urban cash payment,Low,Direct store payment",,
+"Night time cash payment,High,Daytime verification",,
