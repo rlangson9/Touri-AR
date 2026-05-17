@@ -28,6 +28,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from tourista_ai_model import MODEL
 
 class TranslationRequest(BaseModel):
