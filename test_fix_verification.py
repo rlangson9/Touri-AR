@@ -68,10 +68,7 @@ if __name__ == "__main__":
     print("ISSUE FIX VERIFICATION")
     print("="*70)
     
-    all_passed = True
-    
-    if verify_issue_1() and verify_issue_2() and verify_issue_3():
-        all_passed = True
+    all_passed = verify_issue_1() and verify_issue_2() and verify_issue_3()
     
     print("\n" + "="*70)
     if all_passed:
