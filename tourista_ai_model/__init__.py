@@ -11,7 +11,9 @@ from tourista_ai_model.matching.neural_engine import NeuralMatchingEngine, Hybri
 from tourista_ai_model.recommendation.engine import RecommendationEngine, Recommendation, RecommendationType
 from tourista_ai_model.recommendation.ml_engine import MLRecommendationEngine
 from tourista_ai_model.risk_analysis.engine import RiskAnalysisEngine, RiskAssessment, PaymentMethod, UnbankedProfile
+from tourista_ai_model.risk_analysis.ml_engine import MLRiskAnalysisEngine
 from tourista_ai_model.ar_recognition.engine import ARSceneRecognitionEngine, ARMarker, SceneRecognitionResult, ProductPreview
+from tourista_ai_model.ar_recognition.ml_engine import MLARRecognitionEngine
 
 __version__ = "1.0.0"
 __author__ = "Tourista AR - Shanghai, China"
@@ -24,8 +26,8 @@ class TouristaAIModel:
         self.translation_engine = MLTranslationEngine()
         self.matching_system = NeuralMatchingEngine()
         self.recommendation_engine = MLRecommendationEngine()
-        self.risk_engine = RiskAnalysisEngine()
-        self.ar_engine = ARSceneRecognitionEngine()
+        self.risk_engine = MLRiskAnalysisEngine()
+        self.ar_engine = MLARRecognitionEngine()
         self._initialize_system()
 
     def _initialize_system(self):

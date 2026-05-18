@@ -163,7 +163,7 @@ class MLTranslationEngine:
         return {
             'boss': {'sn': 'baba', 'zu': 'bhala', 'xh': 'bhuti', 'en': 'boss'},
             'expensive': {'sn': 'hureba', 'zu': 'mukolu', 'xh': 'buyiselo', 'en': 'expensive'},
-            'cheap': {'sn': 'ranga', 'zu': 'ng含猛', 'xh': 'rhweletswa', 'en': 'cheap'},
+            'cheap': {'sn': 'ranga', 'zu': 'ngababayo', 'xh': 'rhweletswa', 'en': 'cheap'},
             'money': {'sn': 'mari', 'zu': 'imali', 'xh': 'imali', 'en': 'money'},
             'today': {'sn': 'nhasi', 'zu': 'namuhla', 'xh': 'namhlanje', 'en': 'today'},
             'tomorrow': {'sn': 'mere', 'zu': 'kusasa', 'xh': 'ngomso', 'en': 'tomorrow'},
@@ -307,7 +307,7 @@ class MLTranslationEngine:
     def _get_nllb_code(self, lang_code: str) -> str:
         """Map language code to NLLB format"""
         nllb_codes = {
-            'zh': 'eng_Latn',
+            'zh': 'zho_Hans',
             'en': 'eng_Latn',
             'sn': 'sna_Latn',
             'zu': 'zul_Latn',
@@ -315,8 +315,6 @@ class MLTranslationEngine:
             'nd': 'nbl_Latn'
         }
         
-        if lang_code == 'zh':
-            return 'zho_Hans'
         return nllb_codes.get(lang_code, 'eng_Latn')
     
     def _estimate_confidence(self, original: str, translated: str) -> float:
@@ -355,7 +353,7 @@ class MLTranslationEngine:
         
         if language in ['sn', 'zu', 'xh', 'nd']:
             for slang in self.slang_db:
-                if slang in self.slang_db[slang].get(language, '').lower():
+                if self.slang_db[slang].get(language, '').lower() in text_lower:
                     found_slang.append(slang)
         
         return found_slang
