@@ -454,31 +454,28 @@ class HybridTranslationEngine:
         
         logger.info(f"Enhancing ML translation with rules: confidence={ml_result.confidence}")
         
-        if self.rule_engine:
-            rule_result = self.rule_engine.translate(text, source_language, target_language)
-            
-            enhanced_text = self._enhance_translation(
-                ml_result.translated_text,
-                rule_result.translated_text,
-                text,
-                source_language,
-                target_language
-            )
-            
-            return TranslationResult(
-                original_text=text,
-                translated_text=enhanced_text,
-                source_language=source_language,
-                target_language=target_language,
-                confidence=max(ml_result.confidence, rule_result.confidence),
-                model_used="hybrid_ml_rules",
-                processing_time_ms=ml_result.processing_time_ms,
-                business_terms_found=ml_result.business_terms_found + rule_result.business_terms_found,
-                local_slang_found=ml_result.local_slang_found,
-                needs_review=ml_result.needs_review or rule_result.needs_review
-            )
-        else:
-            return ml_result
+        rule_result = self.rule_engine.translate(text, source_language, target_language)
+        
+        enhanced_text = self._enhance_translation(
+            ml_result.translated_text,
+            rule_result.translated_text,
+            text,
+            source_language,
+            target_language
+        )
+        
+        return TranslationResult(
+            original_text=text,
+            translated_text=enhanced_text,
+            source_language=source_language,
+            target_language=target_language,
+            confidence=max(ml_result.confidence, rule_result.confidence),
+            model_used="hybrid_ml_rules",
+            processing_time_ms=ml_result.processing_time_ms,
+            business_terms_found=ml_result.business_terms_found + rule_result.business_terms_found,
+            local_slang_found=ml_result.local_slang_found,
+            needs_review=ml_result.needs_review or rule_result.needs_review
+        )
     
     def _enhance_translation(
         self,
