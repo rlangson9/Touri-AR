@@ -14,6 +14,8 @@ from tourista_ai_model.risk_analysis.engine import RiskAnalysisEngine, RiskAsses
 from tourista_ai_model.risk_analysis.ml_engine import MLRiskAnalysisEngine
 from tourista_ai_model.ar_recognition.engine import ARSceneRecognitionEngine, ARMarker, SceneRecognitionResult, ProductPreview
 from tourista_ai_model.ar_recognition.ml_engine import MLARRecognitionEngine
+from tourista_ai_model.data_loader import DataLoader
+from tourista_ai_model.dataset_integration import SemanticDatasetValidator, DatasetTrainer, run_complete_dataset_integration
 
 __version__ = "1.0.0"
 __author__ = "Tourista AR - Shanghai, China"

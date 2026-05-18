@@ -24,6 +24,13 @@ from dataclasses import dataclass
 import warnings
 import logging
 
+# Import fallback translation engine for hybrid mode
+try:
+    from tourista_ai_model.translation.engine import TranslationEngine
+    TRANSLATION_ENGINE_AVAILABLE = True
+except ImportError:
+    TRANSLATION_ENGINE_AVAILABLE = False
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
@@ -421,8 +428,10 @@ class HybridTranslationEngine:
     
     def __init__(self):
         self.ml_engine = MLTranslationEngine()
-        self.rule_engine = TranslationEngine()
-        logger.info("Hybrid Translation Engine initialized")
+        self.rule_engine = None
+        if TRANSLATION_ENGINE_AVAILABLE:
+            self.rule_engine = TranslationEngine()
+        logger.info("Hybrid Translation Engine initialized" + (" (with rule engine)" if self.rule_engine else " (ML only)"))
     
     def translate(
         self,
@@ -436,8 +445,11 @@ class HybridTranslationEngine:
         """
         ml_result = self.ml_engine.translate(text, source_language, target_language, context)
         
-        if ml_result.confidence >= 0.9:
-            logger.info(f"High confidence ML translation: {ml_result.confidence}")
+        if ml_result.confidence >= 0.9 or not self.rule_engine:
+            if not self.rule_engine:
+                logger.info("Rule engine not available, using ML only")
+            else:
+                logger.info(f"High confidence ML translation: {ml_result.confidence}")
             return ml_result
         
         logger.info(f"Enhancing ML translation with rules: confidence={ml_result.confidence}")
