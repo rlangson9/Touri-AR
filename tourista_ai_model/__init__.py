@@ -5,8 +5,11 @@ Proprietary China-Africa Cross-Border Intelligence System
 
 from tourista_ai_model.config import CONFIG, API_CONFIG, TRADE_CONFIG, ModelConfig, Language, MarketRegion
 from tourista_ai_model.translation.engine import TranslationEngine, TranslationResult
+from tourista_ai_model.translation.ml_engine import MLTranslationEngine, HybridTranslationEngine
 from tourista_ai_model.matching.engine import IntelligentMatchingSystem, UserProfile, Product, MatchResult, UserRole, ProductCategory, MatchType
+from tourista_ai_model.matching.neural_engine import NeuralMatchingEngine, HybridMatchingEngine
 from tourista_ai_model.recommendation.engine import RecommendationEngine, Recommendation, RecommendationType
+from tourista_ai_model.recommendation.ml_engine import MLRecommendationEngine
 from tourista_ai_model.risk_analysis.engine import RiskAnalysisEngine, RiskAssessment, PaymentMethod, UnbankedProfile
 from tourista_ai_model.ar_recognition.engine import ARSceneRecognitionEngine, ARMarker, SceneRecognitionResult, ProductPreview
 
@@ -17,9 +20,10 @@ __copyright__ = "Copyright 2024 Tourista AR. All rights reserved."
 class TouristaAIModel:
     def __init__(self):
         self.config = CONFIG
-        self.translation_engine = TranslationEngine(CONFIG)
-        self.matching_system = IntelligentMatchingSystem()
-        self.recommendation_engine = RecommendationEngine()
+        # Use ML-based engines (with fallback to rule-based if needed)
+        self.translation_engine = MLTranslationEngine()
+        self.matching_system = NeuralMatchingEngine()
+        self.recommendation_engine = MLRecommendationEngine()
         self.risk_engine = RiskAnalysisEngine()
         self.ar_engine = ARSceneRecognitionEngine()
         self._initialize_system()

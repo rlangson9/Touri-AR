@@ -1,0 +1,16 @@
+# ML/AI Dependencies for Tourista AR Translation Engine
+
+# Core ML Framework
+torch>=2.0.0
+
+# Hugging Face Transformers
+transformers>=4.30.0
+
+# Additional utilities
+accelerate>=0.20.0
+sentencepiece>=0.1.97
+protobuf>=3.20.0
+
+# Optional: For better performance
+# pip install bitsandbytes  # 8-bit quantization
+# pip install auto-gptq     # GPTQ quantization

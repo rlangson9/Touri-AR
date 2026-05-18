@@ -1,0 +1,16 @@
+tourista_ai_model/
+├── __init__.py                 # Main AI model interface
+├── config.py                   # Model configuration (6 languages, business terminology)
+├── deployment.py               # Cloud deployment configs (Docker, Kubernetes)
+├── translation/                # Multi-language translation engine
+│   └── engine.py              # Real-time translation with business terminology
+├── matching/                   # Intelligent buyer-supplier matching
+│   └── engine.py              # Multi-criteria matching algorithm
+├── recommendation/             # Trade & travel recommendations
+│   └── engine.py              # Market insights, seasonal pricing
+├── risk_analysis/             # Risk assessment for cash payments
+│   └── engine.py              # AML/KYC, fraud detection, mobile money
+├── ar_recognition/            # AR scene recognition & product preview
+│   └── engine.py              # 3D product visualization, tourism spots
+└── api/                        # FastAPI REST API
+    └── endpoints.py           # 20+ endpoints for mobile app
