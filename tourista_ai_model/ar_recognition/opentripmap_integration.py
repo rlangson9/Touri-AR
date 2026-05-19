@@ -89,6 +89,11 @@ class OpenTripMapAPI:
 
     def get_place_details(self, xid: str) -> Dict:
         """Get detailed information about a specific place"""
+        # Check if API key is available
+        if not self.api_key:
+            print("WARNING: No OpenTripMap API key available.")
+            return None
+            
         url = f"{self.BASE_URL}/places/xid/{xid}"
         params = {"apikey": self.api_key}
 
