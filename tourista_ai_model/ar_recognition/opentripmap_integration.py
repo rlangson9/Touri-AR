@@ -14,8 +14,12 @@ from pathlib import Path
 class OpenTripMapAPI:
     BASE_URL = "https://api.opentripmap.com/0.1/en"
 
-    def __init__(self, api_key: str = "YOUR_API_KEY"):
-        self.api_key = api_key
+    def __init__(self, api_key: str = None):
+        # Use provided API key first, then check environment variable, default to None
+        if api_key:
+            self.api_key = api_key
+        else:
+            self.api_key = os.environ.get("OPENTRIPMAP_API_KEY")
 
     def get_african_destinations(
         self,
@@ -30,6 +34,11 @@ class OpenTripMapAPI:
         Fetch African destinations from OpenTripMap
         Uses large bounding box covering most of Africa
         """
+        # Check if API key is available
+        if not self.api_key:
+            print("WARNING: No OpenTripMap API key available. Using fallback dataset.")
+            return []
+            
         all_destinations = []
 
         # Split Africa into multiple smaller bounding boxes for better coverage
