@@ -1,25 +1,21 @@
-Column A: User Question,Column B: AI Answer
-How to track my order?,Open your order page → click track
-How to pay without a bank account?,You can pay cash at our local partner
-[fill more],[fill more]
-,
-"How to track my order?,Open your order page → click Track",
-"How to pay without a bank account?,You can pay cash at our local partner",
-"How long does delivery take?,3–7 days for air; 25–35 days for sea",
-"How to book a tour?,Select tour → fill info → pay",
-"How to contact supplier?,Go to product page → click Chat",
-"Is my money safe?,Yes, we use local trusted partners",
-"How to change order?,Go to My Orders → click Change",
-"How to cancel order?,Click Cancel before shipping",
-"Do you support Chinese?,Yes, full Chinese support",
-"Do you have local service?,Yes, we have local teams in Africa",
-"What languages do you support?,Chinese, English, Shona, Ndebele, Zulu",
-"How to get a receipt?,Request in order after payment",
-"How to use AR scan?,Open camera → scan product",
-"What if goods are broken?,Contact support for replacement",
-"Can I get a sample?,Yes, many suppliers offer samples",
-"How to become a supplier?,Apply via Become Supplier page",
-"How to verify my account?,Upload ID and face verification",
-"Is my data safe?,Yes, we protect user privacy",
-"How to reset password?,Go to Login → Forgot Password",
-"How to refer a friend?,Use share link in My Page",
+Column A: Question (Chinese),Column B: Question (English),Column C: Question (Shona),Column D: Question (Zulu),Column E: Question (Ndebele),Column F: Answer (Chinese),Column G: Answer (English),Column H: Answer (Shona),Column I: Answer (Zulu),Column J: Answer (Ndebele)
+如何追踪我的订单,How to track my order?,Ndinogona kuongorora order yangu sei?,Ngithola i-ordari yangi kanjani?,Ngithola i-ordari yangi kanjani?,打开订单页面→点击追踪,Open your order page → click track,Vhura page yako yeorder → tinya track,Vula i-page ye-ordari yakho → chofoza i-track,Vula i-page ye-ordari yakho → chofoza i-track
+没有银行账户怎么付款,How to pay without a bank account?,Ndinobhadhara sei pasina kareti yebhangi?,Ngikhokhele ngaphandle kwekhadi le-bhanki?,Ngikhokhele ngaphandle kwekhadi le-bhanki?,您可以在我们的当地合作伙伴处现金付款,You can pay cash at our local partner,Unogona kubhadhara nemari pamba revanhu vedu vari pano,Ngikhokhele ngikhombi ebhizinisi lethu elisendlini,Ngikhokhele ngikhombi ebhizinisi lethu elisendlini
+送货需要多长时间,How long does delivery take?,Kugadzirisa kunotora nguva yakareba?,Ungathola ilizwi elilanda nini?,Ungathola ilizwi elilanda nini?,空运3-7天；海运25-35天,3–7 days for air; 25–35 days for sea,Mazuva 3–7 emhepo; mazuva 25–35 egungwa,Amalungu amathathu kuya isikhathi sokuqeda emoyeni; amalungu amakhulu amabili kuya amathathu kuya amahlanu emaxabane,Amalungu amathathu kuya isikhathi sokuqeda emoyeni; amalungu amakhulu amabili kuya amathathu kuya amahlanu emaxabane
+如何预订旅游,How to book a tour?,Ndinogona kubhukuza tour sei?,Ngibhukude i-tour kanjani?,Ngibhukude i-tour kanjani?,选择旅游→填写信息→付款,Select tour → fill info → pay,Sarudza tour → zadza ruzivo → bhadhara,Khetha i-tour → gcwalisa ulwazi → khokhela,Khetha i-tour → gcwalisa ulwazi → khokhela
+如何联系供应商,How to contact supplier?,Ndinogona kubatana nemusika sei?,Ngithola umthengisi kanjani?,Ngithola umthengisi kanjani?,转到产品页面→点击聊天,Go to product page → click Chat,Enda kwepage yechigadzirwa → tinya Chat,Hamba kwi-page yomkhiqizo → chofoza i-Chat,Hamba kwi-page yomkhiqizo → chofoza i-Chat
+我的钱安全吗,Is my money safe?,Mari yangu inochengetwa here?,Imali yami iphepha na?,Imali yami iphepha na?,是的，我们使用当地值得信赖的合作伙伴,Yes, we use local trusted partners,Hongu, tinoshandisa vanhu vedu vari pano vanovimbika,Yebo, sisebenzisa abakwethu abakholwa abasendlini,Yebo, sisebenzisa abakwethu abakholwa abasendlini
+如何更改订单,How to change order?,Ndinogona kushandura order sei?,Ngishintshe i-ordari kanjani?,Ngishintshe i-ordari kanjani?,转到我的订单→点击更改,Go to My Orders → click Change,Enda kuMy Orders → tinya Change,Hamba ku-My Orders → chofoza i-Change,Hamba ku-My Orders → chofoza i-Change
+如何取消订单,How to cancel order?,Ndinogona kudzora order sei?,Ngikhulule i-ordari kanjani?,Ngikhulule i-ordari kanjani?,发货前点击取消,Click Cancel before shipping,Tinya Cancel usati kutumira,Chofoza i-Chat ngaphambi kwezokuthutha,Chofoza i-Chat ngaphambi kwezokuthutha
+你们支持中文吗,Do you support Chinese?,Munotsigira Chinese here?,Siyakwazi isiChina na?,Siyakwazi isiChina na?,是的，完全支持中文,Yes, full Chinese support,Hongu, rutsigiro rwuri rwese rweChinese,Yebo, ukuxhaswa okuphelele kwe-Chinese,Yebo, ukuxhaswa okuphelele kwe-Chinese
+你们有本地服务吗,Do you have local service?,Mune sevhisi yepano here?,Sine sevice yasebenza na?,Sine sevice yasebenza na?,是的，我们在非洲有本地团队,Yes, we have local teams in Africa,Hongu, tine timu dzepano muAfrica,Yebo, sinezidla ezisendlini e-Afrika,Yebo, sinezidla ezisendlini e-Afrika
+你们支持哪些语言,What languages do you support?,Mutsigira mitauro yakati sei?,Zilimi ezinikezwa ziyini?,Zilimi ezinikezwa ziyini?,中文、英语、绍纳语、恩德贝莱语、祖鲁语,Chinese, English, Shona, Ndebele, Zulu,Chinese, English, Shona, Ndebele, Zulu,IsiChina, Isingisi, IsiShona, IsiNdebele, IsiZulu,IsiChina, Isingisi, IsiShona, IsiNdebele, IsiZulu
+如何获取发票,How to get a receipt?,Ndinogona kupa raiit sei?,Ngithola irecithi kanjani?,Ngithola irecithi kanjani?,付款后在订单中申请,Request in order after payment,Kumbira muorder mushure mekubhadhara,Cela ku-ordari ngemva kokukhokhela,Cela ku-ordari ngemva kokukhokhela
+如何使用AR扫描,How to use AR scan?,Ndinogona kushandisa AR scan sei?,Ngisebenzise i-AR scan kanjani?,Ngisebenzise i-AR scan kanjani?,打开相机→扫描产品,Open camera → scan product,Vhura kamera → skena chigadzirwa,Vula ikhamera → skena umkhiqizo,Vula ikhamera → skena umkhiqizo
+如果货物坏了怎么办,What if goods are broken?,Chii chaitika kana zvinogadzirwa zvakatsvekwa?,Kodwa uma izinto zephuka?,Kodwa uma izinto zephuka?,联系客服申请更换,Contact support for replacement,Batana nerutsigiro kudzosera,Thinta usizo lokuqeda,Thinta usizo lokuqeda
+我能拿到样品吗,Can I get a sample?,Ndinogona kutaura sample here?,Ngithola isampula na?,Ngithola isampula na?,是的，许多供应商都提供样品,Yes, many suppliers offer samples,Hongu, vazhinji vemitengesi vanopa sampula,Yebo, abathengisi abaningi banikela amasampula,Yebo, abathengisi abaningi banikela amasampula
+如何成为供应商,How to become a supplier?,Ndinogona kuva musika sei?,Ngibe umthengisi kanjani?,Ngibe umthengisi kanjani?,通过“成为供应商”页面申请,Apply via Become Supplier page,Sarudza kuApply via Become Supplier page,Faka isicelo ku-Become Supplier page,Faka isicelo ku-Become Supplier page
+如何验证我的账户,How to verify my account?,Ndinogona kuongorora account yangu sei?,Ngithola i-account yangi kanjani?,Ngithola i-account yangi kanjani?,上传身份证和人脸识别,Upload ID and face verification,Tumaira ID uye face verification,Thayela i-ID kanye ne-face verification,Thayela i-ID kanye ne-face verification
+我的数据安全吗,Is my data safe?,Data yangu inochengetwa here?,Idatha yami iphepha na?,Idatha yami iphepha na?,是的，我们保护用户隐私,Yes, we protect user privacy,Hongu, tinodzivirira ruzivo rwemushandisi,Yebo, sivikela imfihlakalo yomsebenzisi,Yebo, sivikela imfihlakalo yomsebenzisi
+如何重置密码,How to reset password?,Ndinogona kushandura password sei?,Ngiphinde i-password kanjani?,Ngiphinde i-password kanjani?,转到登录→忘记密码,Go to Login → Forgot Password,Enda kuLogin → Forgot Password,Hamba ku-Login → Forgot Password,Hamba ku-Login → Forgot Password
+如何推荐朋友,How to refer a friend?,Ndinogona kushandura shamwari sei?,Ngithola umngani kanjani?,Ngithola umngani kanjani?,使用“我的页面”中的分享链接,Use share link in My Page,Shandisa link yekugovera muMy Page,Sebenzisa i-link yokuqoshana ku-My Page,Sebenzisa i-link yokuqoshana ku-My Page

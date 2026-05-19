@@ -8,6 +8,9 @@ from dataclasses import dataclass, field
 from enum import Enum
 from datetime import datetime
 import json
+import csv
+import sys
+from pathlib import Path
 
 class ARSceneType(Enum):
     PRODUCT_PREVIEW = "product_preview"
@@ -77,6 +80,75 @@ class ARSceneRecognitionEngine:
         self.recognition_cache = {}
         self.feature_extractor = self._initialize_feature_extractor()
 
+    def _load_african_destinations(self) -> List[ARMarker]:
+        """Load destinations from the African_AR_Destinations.csv dataset"""
+        markers = []
+        current_dir = Path(__file__).parent.parent
+        data_dir = current_dir / "AI Data sets "
+        if not data_dir.exists():
+            data_dir = current_dir / "AI Data sets"
+        
+        csv_file = data_dir / "African_AR_Destinations.csv"
+        
+        if not csv_file.exists():
+            return markers
+        
+        try:
+            with open(csv_file, "r", encoding="utf-8") as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    try:
+                        # Parse the row to create an ARMarker
+                        marker_id = row.get("id", f"dest_{len(markers)}")
+                        name = row.get("name", "Unknown Destination")
+                        description = row.get("description", "")
+                        latitude = float(row.get("latitude", 0))
+                        longitude = float(row.get("longitude", 0))
+                        
+                        # Map type string to enum
+                        type_str = row.get("type", "tourism_spot")
+                        marker_type = ARSceneType.TOURISM_SPOT
+                        for scene_type in ARSceneType:
+                            if scene_type.value == type_str:
+                                marker_type = scene_type
+                                break
+                        
+                        # Parse categories and tags
+                        categories = row.get("categories", "").split("|")
+                        ar_tags = row.get("ar_trigger_tags", "").split("|")
+                        
+                        # Create visual features from categories
+                        visual_features = categories + ar_tags[:5]
+                        
+                        # Build language content
+                        language_content = {
+                            "en": name,
+                            "zh": f"{name} (中文)"
+                        }
+                        
+                        marker = ARMarker(
+                            marker_id=marker_id,
+                            marker_type=marker_type,
+                            name=name,
+                            description=description,
+                            location=(latitude, longitude),
+                            associated_products=[f"product_{marker_id}"],
+                            cultural_significance=None,
+                            visual_features=visual_features,
+                            ar_assets={
+                                "trigger_tags": "|".join(ar_tags),
+                                "dataset": "African_AR_Destinations"
+                            },
+                            language_content=language_content
+                        )
+                        markers.append(marker)
+                    except Exception:
+                        continue
+        except Exception:
+            pass
+        
+        return markers
+
     def _initialize_feature_extractor(self) -> Dict:
         return {
             "colors": ["red", "green", "blue", "yellow", "orange", "purple", "brown", "white", "black"],
@@ -86,7 +158,8 @@ class ARSceneRecognitionEngine:
         }
 
     def _initialize_scene_database(self) -> List[ARMarker]:
-        return [
+        # Load static markers
+        static_markers = [
             ARMarker(
                 marker_id="vic_falls_main",
                 marker_type=ARSceneType.TOURISM_SPOT,
@@ -106,88 +179,14 @@ class ARSceneRecognitionEngine:
                     "en": "Victoria Falls - World's Largest Waterfall",
                     "sn": "Victoria Falls - Mvura Yemumera"
                 }
-            ),
-            ARMarker(
-                marker_id="great_zimbabwe",
-                marker_type=ARSceneType.CULTURAL_HERITAGE,
-                name="Great Zimbabwe Ruins",
-                description="Ancient stone ruins of a medieval city, UNESCO World Heritage Site",
-                location=(-20.2689, 31.0456),
-                associated_products=["soapstone_carvings", "traditional_shona_art"],
-                cultural_significance="Capital of the Shona Kingdom, 11th-15th century",
-                visual_features=["stone_walls", "ancient_architecture", "grasslands", "baobab_trees"],
-                ar_assets={
-                    "3d_model": "great_zimbabwe_reconstruction.glb",
-                    "video": "great_zimbabwe_history.mp4",
-                    "historical_images": "great_zimbabwe_archive.zip"
-                },
-                language_content={
-                    "zh": "大津巴布韦遗址",
-                    "en": "Great Zimbabwe - Ancient Kingdom",
-                    "sn": "Great Zimbabwe - Mufuva weShona"
-                }
-            ),
-            ARMarker(
-                marker_id="kruger_safari",
-                marker_type=ARSceneType.WILDLIFE,
-                name="Kruger National Park - Safari Experience",
-                description="World-renowned wildlife reserve with Big Five viewing",
-                location=(-24.0117, 31.4858),
-                associated_products=["safari_photography", "traditional_artifacts"],
-                cultural_significance="Premier wildlife conservation area in Africa",
-                visual_features=["savanna", "acacia_trees", "wildlife", "bush"],
-                ar_assets={
-                    "3d_model": "kruger_landscape.glb",
-                    "animal_models": "kruger_wildlife_3d.zip",
-                    "video": "kruger_safari_preview.mp4"
-                },
-                language_content={
-                    "zh": "克鲁格国家公园 - 野生动物园体验",
-                    "en": "Kruger National Park - Safari Experience",
-                    "zu": "iKruger - Indawo Yenkosi"
-                }
-            ),
-            ARMarker(
-                marker_id="table_mountain",
-                marker_type=ARSceneType.TOURISM_SPOT,
-                name="Table Mountain - Cape Town",
-                description="Iconic flat-topped mountain overlooking Cape Town",
-                location=(-33.9628, 18.4098),
-                associated_products=["table_mountain_photo_prints", "cape_dutch_art"],
-                cultural_significance="Natural wonder and symbol of Cape Town",
-                visual_features=["mountain", "flat_top", "cloud", "city_view", "ocean"],
-                ar_assets={
-                    "3d_model": "table_mountain_3d.glb",
-                    "time_lapse": "table_mountain_clouds.mp4",
-                    "aerial_view": "table_mountain_drone.mp4"
-                },
-                language_content={
-                    "zh": "桌山 - 开普敦",
-                    "en": "Table Mountain - Cape Town",
-                    "xh": "iTable - Kumtonto weCape Town"
-                }
-            ),
-            ARMarker(
-                marker_id="harare_market",
-                marker_type=ARSceneType.MARKETPLACE,
-                name="Harare Street Market",
-                description="Vibrant local market featuring crafts, textiles, and fresh produce",
-                location=(-17.8178, 31.0453),
-                associated_products=["shona_sculptures", "woven_baskets", "textiles", "jewelry"],
-                cultural_significance="Center of local trade and artisan crafts",
-                visual_features=["colorful_stalls", "handicrafts", "textiles", "baskets"],
-                ar_assets={
-                    "3d_model": "market_stall.glb",
-                    "product_gallery": "market_products.zip",
-                    "price_guide": "market_pricing.pdf"
-                },
-                language_content={
-                    "zh": "哈拉雷街头市场",
-                    "en": "Harare Street Market",
-                    "sn": "Musika weHarare"
-                }
             )
         ]
+        
+        # Load markers from dataset (200+ destinations)
+        dataset_markers = self._load_african_destinations()
+        
+        # Combine static and dataset markers
+        return static_markers + dataset_markers
 
     def _initialize_product_previews(self) -> List[ProductPreview]:
         return [

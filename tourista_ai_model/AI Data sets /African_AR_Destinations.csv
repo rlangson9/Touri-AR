@@ -1,0 +1,201 @@
+id,name,country,city,latitude,longitude,description,wikipedia_url,categories,ar_trigger_tags,type
+dest_0000,Table Mountain,South Africa,Cape Town,-33.9628,18.4098,"Iconic flat-topped mountain overlooking Cape Town, UNESCO World Heritage Site",,mountain|nature|tourism,ar_table_mountain,tourism_spot
+dest_0001,Cape Point,South Africa,Cape Town,-34.3568,18.4928,"Point where Atlantic and Indian Oceans meet, within Table Mountain National Park",,coast|nature|tourism,ar_cape_point,tourism_spot
+dest_0002,Kruger National Park,South Africa,Skukuza,-24.0117,31.4858,"World-renowned wildlife reserve with Big Five viewing, one of Africa's largest game reserves",,national_park|safari|wildlife,ar_kruger_national_park,wildlife
+dest_0003,Addo Elephant National Park,South Africa,Grahamstown,-33.5278,25.7192,Elephant sanctuary and Big Seven wildlife reserve,,national_park|safari|elephants,ar_addo_elephant_national_park,wildlife
+dest_0004,Robben Island,South Africa,Cape Town,-33.8064,18.3664,"Island prison where Nelson Mandela was held, UNESCO World Heritage Site",,heritage|museum|history,ar_robben_island,cultural_heritage
+dest_0005,Apartheid Museum,South Africa,Johannesburg,-26.2398,28.0048,Museum documenting South Africa's apartheid era,,museum|history|education,ar_apartheid_museum,cultural_heritage
+dest_0006,Great Zimbabwe Ruins,Zimbabwe,Masvingo,-20.2689,31.0456,"Ancient stone ruins of a medieval city, UNESCO World Heritage Site",,ruins|heritage|history,ar_great_zimbabwe_ruins,cultural_heritage
+dest_0007,Lake Kariba,Zimbabwe,Kariba,-16.5143,28.8256,"World's largest man-made lake, famous for fishing and houseboating",,lake|tourism|water,ar_lake_kariba,tourism_spot
+dest_0008,Victoria Falls Bridge,Zimbabwe,Victoria Falls,-17.9267,25.8622,"Historic bridge spanning the Zambezi River, famous for bungee jumping",,bridge|adventure|tourism,ar_victoria_falls_bridge,tourism_spot
+dest_0009,Okavango Delta,Botswana,Maun,-19.5,23.0,"World's largest inland delta, UNESCO World Heritage Site",,delta|wildlife|safari,ar_okavango_delta,wildlife
+dest_0010,Chobe National Park,Botswana,Kasane,-18.0,25.0,Home to one of Africa's largest elephant populations,,national_park|safari|elephants,ar_chobe_national_park,wildlife
+dest_0011,Sossusvlei,Namibia,Sesriem,-24.7278,15.2872,"Red sand dunes in the Namib Desert, some of the highest in the world",,desert|dunes|nature,ar_sossusvlei,tourism_spot
+dest_0012,Etosha National Park,Namibia,Oshikoto,-18.8,15.9,Large salt pan with abundant wildlife viewing,,national_park|safari|salt_pan,ar_etosha_national_park,wildlife
+dest_0013,Fish River Canyon,Namibia,Ais-Ais,-27.6,17.6,"Africa's largest canyon, known for hiking trails",,canyon|hiking|nature,ar_fish_river_canyon,tourism_spot
+dest_0014,Masai Mara National Reserve,Kenya,Narok,-1.5,35.0,World-famous for the Great Migration of wildebeest and big five game,,reserve|safari|migration,ar_masai_mara_national_reserve,wildlife
+dest_0015,Amboseli National Park,Kenya,Kajiado,-2.65,37.25,Large elephant population with Mount Kilimanjaro views,,national_park|safari|elephants,ar_amboseli_national_park,wildlife
+dest_0016,Tsavo East National Park,Kenya,Tsavo,-3.0,38.5,One of the world's largest game reserves,,national_park|safari,ar_tsavo_east_national_park,wildlife
+dest_0017,Mount Kenya,Kenya,Nyeri,0.1517,37.3078,"Highest mountain in Kenya, UNESCO World Heritage Site",,mountain|climbing|nature,ar_mount_kenya,tourism_spot
+dest_0018,Mount Kilimanjaro,Tanzania,Moshi,-3.0758,37.3533,"Africa's highest peak and the world's tallest free-standing mountain, UNESCO World Heritage Site",,mountain|climbing|nature,ar_mount_kilimanjaro,tourism_spot
+dest_0019,Serengeti National Park,Tanzania,Mwanza,-2.3333,34.8333,"Famous for the Great Migration of wildebeest and zebra, UNESCO World Heritage Site",,national_park|migration|safari,ar_serengeti_national_park,wildlife
+dest_0020,Ngorongoro Crater,Tanzania,Karatu,-3.2481,35.4964,"World's largest inactive volcanic caldera, UNESCO World Heritage Site",,crater|wildlife|safari,ar_ngorongoro_crater,wildlife
+dest_0021,Zanzibar Stone Town,Tanzania,Zanzibar City,-6.163,39.2027,"Historic trading port with Swahili architecture, UNESCO World Heritage Site",,town|heritage|history,ar_zanzibar_stone_town,cultural_heritage
+dest_0022,Bwindi Impenetrable Forest,Uganda,Kisoro,-1.05,29.65,UNESCO World Heritage Site famous for mountain gorillas,,forest|gorillas|nature,ar_bwindi_impenetrable_forest,wildlife
+dest_0023,Volcanoes National Park,Rwanda,Ruhengeri,-1.5,29.5,"Mountain gorilla conservation, part of Virunga Mountains",,national_park|gorillas|volcanoes,ar_volcanoes_national_park,wildlife
+dest_0024,Lake Victoria,Uganda,Entebbe,0.0,33.0,"Africa's largest lake, source of the White Nile",,lake|water|tourism,ar_lake_victoria,tourism_spot
+dest_0025,Lalibela Rock-Hewn Churches,Ethiopia,Lalibela,12.0333,39.0333,"Eleven medieval monolithic churches carved from solid rock, UNESCO World Heritage Site",,church|heritage|history,ar_lalibela_rock-hewn_churches,cultural_heritage
+dest_0026,Simien Mountains National Park,Ethiopia,Gondar,13.2,38.2,UNESCO World Heritage Site with stunning mountain landscapes,,mountain|national_park|nature,ar_simien_mountains_national_park,tourism_spot
+dest_0027,Blue Nile Falls,Ethiopia,Bahir Dar,11.5,37.5,Spectacular waterfalls on the Blue Nile River,,waterfall|nature|tourism,ar_blue_nile_falls,tourism_spot
+dest_0028,Great Pyramids of Giza,Egypt,Giza,29.9792,31.1342,"Ancient wonder of the world, UNESCO World Heritage Site",,pyramid|history|heritage,ar_great_pyramids_of_giza,cultural_heritage
+dest_0029,Karnak Temple,Egypt,Luxor,25.7194,32.6581,"Ancient Egyptian temple complex, UNESCO World Heritage Site",,temple|history|heritage,ar_karnak_temple,cultural_heritage
+dest_0030,Valley of the Kings,Egypt,Luxor,25.7419,32.6,"Burial place of New Kingdom pharaohs, UNESCO World Heritage Site",,tomb|history|heritage,ar_valley_of_the_kings,cultural_heritage
+dest_0031,Abu Simbel Temples,Egypt,Abu Simbel,22.3375,31.6258,"Two massive rock-cut temples, UNESCO World Heritage Site",,temple|heritage|history,ar_abu_simbel_temples,cultural_heritage
+dest_0032,Marrakech Medina,Morocco,Marrakech,31.6295,-7.9811,"Historic walled city with souks and palaces, UNESCO World Heritage Site",,medina|heritage|market,ar_marrakech_medina,cultural_heritage
+dest_0033,Jemaa el-Fnaa,Morocco,Marrakech,31.625,-7.9911,"Famous square and market place in Marrakech, UNESCO Intangible Cultural Heritage",,market|entertainment|culture,ar_jemaa_el-fnaa,marketplace
+dest_0034,Hassan II Mosque,Morocco,Casablanca,33.6086,-7.633,One of Africa's largest mosques,,mosque|architecture|religion,ar_hassan_ii_mosque,cultural_heritage
+dest_0035,Carthage Ruins,Tunisia,Carthage,36.8531,10.3228,"Ancient Phoenician and Roman city, UNESCO World Heritage Site",,ruins|heritage|history,ar_carthage_ruins,cultural_heritage
+dest_0036,Sahara Desert - Douz,Tunisia,Douz,33.45,9.02,Gateway to the Sahara Desert with camel trekking,,desert|sahara|adventure,ar_sahara_desert_-_douz,tourism_spot
+dest_0037,Olumo Rock,Nigeria,Abeokuta,7.15,3.35,Historic granite rock with sacred significance,,rock|history|tourism,ar_olumo_rock,tourism_spot
+dest_0038,Yankari Game Reserve,Nigeria,Bauchi,9.75,10.5,Largest wildlife park in Nigeria with elephants and lions,,reserve|safari|wildlife,ar_yankari_game_reserve,wildlife
+dest_0039,Lekki Conservation Centre,Nigeria,Lagos,6.45,3.6,Longest canopy walkway in Africa,,nature|walkway|conservation,ar_lekki_conservation_centre,tourism_spot
+dest_0040,Kakum National Park,Ghana,Cape Coast,5.35,-1.45,Tropical forest with famous canopy walk,,forest|nature|conservation,ar_kakum_national_park,tourism_spot
+dest_0041,Cape Coast Castle,Ghana,Cape Coast,5.1083,-1.245,"Historic slave trade castle, UNESCO World Heritage Site",,castle|heritage|history,ar_cape_coast_castle,cultural_heritage
+dest_0042,Elmina Castle,Ghana,Elmina,5.0833,-1.35,"Oldest European building in sub-Saharan Africa, UNESCO World Heritage Site",,castle|heritage|history,ar_elmina_castle,cultural_heritage
+dest_0043,Basilique de Notre-Dame de la Paix,Côte d'Ivoire,Yamoussoukro,6.8333,-5.2833,One of the world's largest Christian churches,,church|architecture|religion,ar_basilique_de_notre-dame_de_la_paix,cultural_heritage
+dest_0044,Gorée Island,Senegal,Dakar,14.6667,-17.4,"Historic island linked to Atlantic slave trade, UNESCO World Heritage Site",,island|heritage|history,ar_gorée_island,cultural_heritage
+dest_0045,Pink Lake (Lac Rose),Senegal,Dakar,14.8333,-17.2333,Pink-colored salt lake,,lake|nature|salt,ar_pink_lake_(lac_rose),tourism_spot
+dest_0046,Bazaruto Archipelago,Mozambique,Vilanculos,-21.6,35.5,Tropical islands with crystal-clear waters,,islands|beach|diving,ar_bazaruto_archipelago,tourism_spot
+dest_0047,Madagascar Tsingy de Bemaraha,Madagascar,Bemaraha,-18.8,44.6,"Unique limestone formations, UNESCO World Heritage Site",,nature|rock|national_park,ar_madagascar_tsingy_de_bemaraha,tourism_spot
+dest_0048,Avenue of the Baobabs,Madagascar,Morondava,-20.25,44.4167,Famous row of ancient baobab trees,,trees|nature|iconic,ar_avenue_of_the_baobabs,tourism_spot
+dest_0049,Virunga National Park,DR Congo,Goma,-0.9,29.3,"Africa's oldest national park, UNESCO World Heritage Site with mountain gorillas and active volcanoes",,national_park|volcano|gorillas,ar_virunga_national_park,wildlife
+dest_0050,Mount Nyiragongo,DR Congo,Goma,-1.5212,29.25,Active volcano with one of the world's largest lava lakes,,volcano|nature|adventure,ar_mount_nyiragongo,tourism_spot
+market_cape_town,Cape Town Central Market,South Africa,Cape Town,-33.9249,18.4241,"Vibrant local market in Cape Town featuring traditional crafts, textiles, and produce",,market|local|shopping,ar_market_cape_town,marketplace
+tour_cape_town,Cape Town City Tour,South Africa,Cape Town,-33.9239,18.4251,Cultural and historical tour of Cape Town,,tour|city|culture,ar_tour_cape_town,tourism_spot
+market_johannesburg,Johannesburg Central Market,South Africa,Johannesburg,-26.2041,28.0473,"Vibrant local market in Johannesburg featuring traditional crafts, textiles, and produce",,market|local|shopping,ar_market_johannesburg,marketplace
+tour_johannesburg,Johannesburg City Tour,South Africa,Johannesburg,-26.2031,28.0483,Cultural and historical tour of Johannesburg,,tour|city|culture,ar_tour_johannesburg,tourism_spot
+market_durban,Durban Central Market,South Africa,Durban,-29.8587,31.0218,"Vibrant local market in Durban featuring traditional crafts, textiles, and produce",,market|local|shopping,ar_market_durban,marketplace
+tour_durban,Durban City Tour,South Africa,Durban,-29.857699999999998,31.0228,Cultural and historical tour of Durban,,tour|city|culture,ar_tour_durban,tourism_spot
+accom_durban,Durban Grand Hotel,South Africa,Durban,-29.8597,31.020799999999998,Top-rated accommodation in Durban with local charm,,hotel|accommodation|travel,ar_hotel_durban,accommodation
+market_maputo,Maputo Central Market,Mozambique,Maputo,-25.9662,32.5838,"Vibrant local market in Maputo featuring traditional crafts, textiles, and produce",,market|local|shopping,ar_market_maputo,marketplace
+market_harare,Harare Central Market,Zimbabwe,Harare,-17.8252,31.0335,"Vibrant local market in Harare featuring traditional crafts, textiles, and produce",,market|local|shopping,ar_market_harare,marketplace
+tour_harare,Harare City Tour,Zimbabwe,Harare,-17.824199999999998,31.0345,Cultural and historical tour of Harare,,tour|city|culture,ar_tour_harare,tourism_spot
+market_lusaka,Lusaka Central Market,Zambia,Lusaka,-15.3875,28.3228,"Vibrant local market in Lusaka featuring traditional crafts, textiles, and produce",,market|local|shopping,ar_market_lusaka,marketplace
+tour_lusaka,Lusaka City Tour,Zambia,Lusaka,-15.3865,28.323800000000002,Cultural and historical tour of Lusaka,,tour|city|culture,ar_tour_lusaka,tourism_spot
+accom_lusaka,Lusaka Grand Hotel,Zambia,Lusaka,-15.388499999999999,28.3218,Top-rated accommodation in Lusaka with local charm,,hotel|accommodation|travel,ar_hotel_lusaka,accommodation
+market_gaborone,Gaborone Central Market,Botswana,Gaborone,-24.6575,25.9175,"Vibrant local market in Gaborone featuring traditional crafts, textiles, and produce",,market|local|shopping,ar_market_gaborone,marketplace
+market_windhoek,Windhoek Central Market,Namibia,Windhoek,-22.57,17.0836,"Vibrant local market in Windhoek featuring traditional crafts, textiles, and produce",,market|local|shopping,ar_market_windhoek,marketplace
+tour_windhoek,Windhoek City Tour,Namibia,Windhoek,-22.569,17.084600000000002,Cultural and historical tour of Windhoek,,tour|city|culture,ar_tour_windhoek,tourism_spot
+market_nairobi,Nairobi Central Market,Kenya,Nairobi,-1.2921,36.8219,"Vibrant local market in Nairobi featuring traditional crafts, textiles, and produce",,market|local|shopping,ar_market_nairobi,marketplace
+tour_nairobi,Nairobi City Tour,Kenya,Nairobi,-1.2911000000000001,36.8229,Cultural and historical tour of Nairobi,,tour|city|culture,ar_tour_nairobi,tourism_spot
+accom_nairobi,Nairobi Grand Hotel,Kenya,Nairobi,-1.2931,36.8209,Top-rated accommodation in Nairobi with local charm,,hotel|accommodation|travel,ar_hotel_nairobi,accommodation
+market_mombasa,Mombasa Central Market,Kenya,Mombasa,-4.0435,39.6682,"Vibrant local market in Mombasa featuring traditional crafts, textiles, and produce",,market|local|shopping,ar_market_mombasa,marketplace
+market_dar_es_salaam,Dar es Salaam Central Market,Tanzania,Dar es Salaam,-6.7924,39.2083,"Vibrant local market in Dar es Salaam featuring traditional crafts, textiles, and produce",,market|local|shopping,ar_market_dar_es_salaam,marketplace
+tour_dar_es_salaam,Dar es Salaam City Tour,Tanzania,Dar es Salaam,-6.791399999999999,39.2093,Cultural and historical tour of Dar es Salaam,,tour|city|culture,ar_tour_dar_es_salaam,tourism_spot
+market_arusha,Arusha Central Market,Tanzania,Arusha,-3.3869,36.683,"Vibrant local market in Arusha featuring traditional crafts, textiles, and produce",,market|local|shopping,ar_market_arusha,marketplace
+tour_arusha,Arusha City Tour,Tanzania,Arusha,-3.3859,36.684,Cultural and historical tour of Arusha,,tour|city|culture,ar_tour_arusha,tourism_spot
+accom_arusha,Arusha Grand Hotel,Tanzania,Arusha,-3.3878999999999997,36.682,Top-rated accommodation in Arusha with local charm,,hotel|accommodation|travel,ar_hotel_arusha,accommodation
+market_kampala,Kampala Central Market,Uganda,Kampala,0.3476,32.5825,"Vibrant local market in Kampala featuring traditional crafts, textiles, and produce",,market|local|shopping,ar_market_kampala,marketplace
+market_kigali,Kigali Central Market,Rwanda,Kigali,-1.9441,30.0619,"Vibrant local market in Kigali featuring traditional crafts, textiles, and produce",,market|local|shopping,ar_market_kigali,marketplace
+tour_kigali,Kigali City Tour,Rwanda,Kigali,-1.9431,30.062900000000003,Cultural and historical tour of Kigali,,tour|city|culture,ar_tour_kigali,tourism_spot
+market_addis_ababa,Addis Ababa Central Market,Ethiopia,Addis Ababa,9.03,38.74,"Vibrant local market in Addis Ababa featuring traditional crafts, textiles, and produce",,market|local|shopping,ar_market_addis_ababa,marketplace
+tour_addis_ababa,Addis Ababa City Tour,Ethiopia,Addis Ababa,9.030999999999999,38.741,Cultural and historical tour of Addis Ababa,,tour|city|culture,ar_tour_addis_ababa,tourism_spot
+accom_addis_ababa,Addis Ababa Grand Hotel,Ethiopia,Addis Ababa,9.029,38.739000000000004,Top-rated accommodation in Addis Ababa with local charm,,hotel|accommodation|travel,ar_hotel_addis_ababa,accommodation
+market_cairo,Cairo Central Market,Egypt,Cairo,30.0444,31.2357,"Vibrant local market in Cairo featuring traditional crafts, textiles, and produce",,market|local|shopping,ar_market_cairo,marketplace
+market_alexandria,Alexandria Central Market,Egypt,Alexandria,31.2001,29.9187,"Vibrant local market in Alexandria featuring traditional crafts, textiles, and produce",,market|local|shopping,ar_market_alexandria,marketplace
+tour_alexandria,Alexandria City Tour,Egypt,Alexandria,31.2011,29.919700000000002,Cultural and historical tour of Alexandria,,tour|city|culture,ar_tour_alexandria,tourism_spot
+market_marrakech,Marrakech Central Market,Morocco,Marrakech,31.6295,-7.9811,"Vibrant local market in Marrakech featuring traditional crafts, textiles, and produce",,market|local|shopping,ar_market_marrakech,marketplace
+tour_marrakech,Marrakech City Tour,Morocco,Marrakech,31.6305,-7.980099999999999,Cultural and historical tour of Marrakech,,tour|city|culture,ar_tour_marrakech,tourism_spot
+accom_marrakech,Marrakech Grand Hotel,Morocco,Marrakech,31.6285,-7.9821,Top-rated accommodation in Marrakech with local charm,,hotel|accommodation|travel,ar_hotel_marrakech,accommodation
+market_casablanca,Casablanca Central Market,Morocco,Casablanca,33.5731,-7.5898,"Vibrant local market in Casablanca featuring traditional crafts, textiles, and produce",,market|local|shopping,ar_market_casablanca,marketplace
+market_fez,Fez Central Market,Morocco,Fez,34.0181,-5.0078,"Vibrant local market in Fez featuring traditional crafts, textiles, and produce",,market|local|shopping,ar_market_fez,marketplace
+tour_fez,Fez City Tour,Morocco,Fez,34.019099999999995,-5.006799999999999,Cultural and historical tour of Fez,,tour|city|culture,ar_tour_fez,tourism_spot
+market_dakar,Dakar Central Market,Senegal,Dakar,14.7167,-17.4677,"Vibrant local market in Dakar featuring traditional crafts, textiles, and produce",,market|local|shopping,ar_market_dakar,marketplace
+tour_dakar,Dakar City Tour,Senegal,Dakar,14.717699999999999,-17.4667,Cultural and historical tour of Dakar,,tour|city|culture,ar_tour_dakar,tourism_spot
+accom_dakar,Dakar Grand Hotel,Senegal,Dakar,14.7157,-17.468700000000002,Top-rated accommodation in Dakar with local charm,,hotel|accommodation|travel,ar_hotel_dakar,accommodation
+market_accra,Accra Central Market,Ghana,Accra,5.6037,-0.187,"Vibrant local market in Accra featuring traditional crafts, textiles, and produce",,market|local|shopping,ar_market_accra,marketplace
+market_lagos,Lagos Central Market,Nigeria,Lagos,6.5244,3.3792,"Vibrant local market in Lagos featuring traditional crafts, textiles, and produce",,market|local|shopping,ar_market_lagos,marketplace
+tour_lagos,Lagos City Tour,Nigeria,Lagos,6.5254,3.3802,Cultural and historical tour of Lagos,,tour|city|culture,ar_tour_lagos,tourism_spot
+market_abuja,Abuja Central Market,Nigeria,Abuja,9.082,7.4969,"Vibrant local market in Abuja featuring traditional crafts, textiles, and produce",,market|local|shopping,ar_market_abuja,marketplace
+tour_abuja,Abuja City Tour,Nigeria,Abuja,9.083,7.4979000000000005,Cultural and historical tour of Abuja,,tour|city|culture,ar_tour_abuja,tourism_spot
+accom_abuja,Abuja Grand Hotel,Nigeria,Abuja,9.081000000000001,7.4959,Top-rated accommodation in Abuja with local charm,,hotel|accommodation|travel,ar_hotel_abuja,accommodation
+extra_0100,Destination 100 - Harare,Zimbabwe,Harare,-17.725199999999997,31.1335,Additional tourist destination near Harare,,tourism|attraction,ar_dest_100,tourism_spot
+extra_0101,Destination 101 - Lusaka,Zambia,Lusaka,-15.286499999999998,28.4238,Additional tourist destination near Lusaka,,tourism|attraction,ar_dest_101,tourism_spot
+extra_0102,Destination 102 - Gaborone,Botswana,Gaborone,-24.5555,26.0195,Additional tourist destination near Gaborone,,tourism|attraction,ar_dest_102,tourism_spot
+extra_0103,Destination 103 - Windhoek,Namibia,Windhoek,-22.467,17.186600000000002,Additional tourist destination near Windhoek,,tourism|attraction,ar_dest_103,tourism_spot
+extra_0104,Destination 104 - Nairobi,Kenya,Nairobi,-1.1881,36.9259,Additional tourist destination near Nairobi,,tourism|attraction,ar_dest_104,tourism_spot
+extra_0105,Destination 105 - Mombasa,Kenya,Mombasa,-3.9385,39.773199999999996,Additional tourist destination near Mombasa,,tourism|attraction,ar_dest_105,tourism_spot
+extra_0106,Destination 106 - Dar es Salaam,Tanzania,Dar es Salaam,-6.6864,39.3143,Additional tourist destination near Dar es Salaam,,tourism|attraction,ar_dest_106,tourism_spot
+extra_0107,Destination 107 - Arusha,Tanzania,Arusha,-3.2798999999999996,36.79,Additional tourist destination near Arusha,,tourism|attraction,ar_dest_107,tourism_spot
+extra_0108,Destination 108 - Kampala,Uganda,Kampala,0.4556,32.6905,Additional tourist destination near Kampala,,tourism|attraction,ar_dest_108,tourism_spot
+extra_0109,Destination 109 - Kigali,Rwanda,Kigali,-1.8351,30.170900000000003,Additional tourist destination near Kigali,,tourism|attraction,ar_dest_109,tourism_spot
+extra_0110,Destination 110 - Addis Ababa,Ethiopia,Addis Ababa,9.139999999999999,38.85,Additional tourist destination near Addis Ababa,,tourism|attraction,ar_dest_110,tourism_spot
+extra_0111,Destination 111 - Cairo,Egypt,Cairo,30.1554,31.346700000000002,Additional tourist destination near Cairo,,tourism|attraction,ar_dest_111,tourism_spot
+extra_0112,Destination 112 - Alexandria,Egypt,Alexandria,31.312099999999997,30.0307,Additional tourist destination near Alexandria,,tourism|attraction,ar_dest_112,tourism_spot
+extra_0113,Destination 113 - Marrakech,Morocco,Marrakech,31.7425,-7.868099999999999,Additional tourist destination near Marrakech,,tourism|attraction,ar_dest_113,tourism_spot
+extra_0114,Destination 114 - Casablanca,Morocco,Casablanca,33.687099999999994,-7.4758000000000004,Additional tourist destination near Casablanca,,tourism|attraction,ar_dest_114,tourism_spot
+extra_0115,Destination 115 - Fez,Morocco,Fez,34.1331,-4.892799999999999,Additional tourist destination near Fez,,tourism|attraction,ar_dest_115,tourism_spot
+extra_0116,Destination 116 - Dakar,Senegal,Dakar,14.832699999999999,-17.3517,Additional tourist destination near Dakar,,tourism|attraction,ar_dest_116,tourism_spot
+extra_0117,Destination 117 - Accra,Ghana,Accra,5.7207,-0.06999999999999999,Additional tourist destination near Accra,,tourism|attraction,ar_dest_117,tourism_spot
+extra_0118,Destination 118 - Lagos,Nigeria,Lagos,6.6424,3.4972,Additional tourist destination near Lagos,,tourism|attraction,ar_dest_118,tourism_spot
+extra_0119,Destination 119 - Abuja,Nigeria,Abuja,9.201,7.6159,Additional tourist destination near Abuja,,tourism|attraction,ar_dest_119,tourism_spot
+extra_0120,Destination 120 - Cape Town,South Africa,Cape Town,-33.8049,18.5441,Additional tourist destination near Cape Town,,tourism|attraction,ar_dest_120,tourism_spot
+extra_0121,Destination 121 - Johannesburg,South Africa,Johannesburg,-26.0831,28.1683,Additional tourist destination near Johannesburg,,tourism|attraction,ar_dest_121,tourism_spot
+extra_0122,Destination 122 - Durban,South Africa,Durban,-29.7367,31.1438,Additional tourist destination near Durban,,tourism|attraction,ar_dest_122,tourism_spot
+extra_0123,Destination 123 - Maputo,Mozambique,Maputo,-25.8432,32.706799999999994,Additional tourist destination near Maputo,,tourism|attraction,ar_dest_123,tourism_spot
+extra_0124,Destination 124 - Harare,Zimbabwe,Harare,-17.7012,31.1575,Additional tourist destination near Harare,,tourism|attraction,ar_dest_124,tourism_spot
+extra_0125,Destination 125 - Lusaka,Zambia,Lusaka,-15.2625,28.4478,Additional tourist destination near Lusaka,,tourism|attraction,ar_dest_125,tourism_spot
+extra_0126,Destination 126 - Gaborone,Botswana,Gaborone,-24.531499999999998,26.0435,Additional tourist destination near Gaborone,,tourism|attraction,ar_dest_126,tourism_spot
+extra_0127,Destination 127 - Windhoek,Namibia,Windhoek,-22.443,17.2106,Additional tourist destination near Windhoek,,tourism|attraction,ar_dest_127,tourism_spot
+extra_0128,Destination 128 - Nairobi,Kenya,Nairobi,-1.1641,36.9499,Additional tourist destination near Nairobi,,tourism|attraction,ar_dest_128,tourism_spot
+extra_0129,Destination 129 - Mombasa,Kenya,Mombasa,-3.9145,39.7972,Additional tourist destination near Mombasa,,tourism|attraction,ar_dest_129,tourism_spot
+extra_0130,Destination 130 - Dar es Salaam,Tanzania,Dar es Salaam,-6.6624,39.338300000000004,Additional tourist destination near Dar es Salaam,,tourism|attraction,ar_dest_130,tourism_spot
+extra_0131,Destination 131 - Arusha,Tanzania,Arusha,-3.2558999999999996,36.814,Additional tourist destination near Arusha,,tourism|attraction,ar_dest_131,tourism_spot
+extra_0132,Destination 132 - Kampala,Uganda,Kampala,0.4796,32.7145,Additional tourist destination near Kampala,,tourism|attraction,ar_dest_132,tourism_spot
+extra_0133,Destination 133 - Kigali,Rwanda,Kigali,-1.8111,30.1949,Additional tourist destination near Kigali,,tourism|attraction,ar_dest_133,tourism_spot
+extra_0134,Destination 134 - Addis Ababa,Ethiopia,Addis Ababa,9.164,38.874,Additional tourist destination near Addis Ababa,,tourism|attraction,ar_dest_134,tourism_spot
+extra_0135,Destination 135 - Cairo,Egypt,Cairo,30.1794,31.370700000000003,Additional tourist destination near Cairo,,tourism|attraction,ar_dest_135,tourism_spot
+extra_0136,Destination 136 - Alexandria,Egypt,Alexandria,31.3361,30.0547,Additional tourist destination near Alexandria,,tourism|attraction,ar_dest_136,tourism_spot
+extra_0137,Destination 137 - Marrakech,Morocco,Marrakech,31.7665,-7.844099999999999,Additional tourist destination near Marrakech,,tourism|attraction,ar_dest_137,tourism_spot
+extra_0138,Destination 138 - Casablanca,Morocco,Casablanca,33.711099999999995,-7.4518,Additional tourist destination near Casablanca,,tourism|attraction,ar_dest_138,tourism_spot
+extra_0139,Destination 139 - Fez,Morocco,Fez,34.1571,-4.868799999999999,Additional tourist destination near Fez,,tourism|attraction,ar_dest_139,tourism_spot
+extra_0140,Destination 140 - Dakar,Senegal,Dakar,14.8567,-17.3277,Additional tourist destination near Dakar,,tourism|attraction,ar_dest_140,tourism_spot
+extra_0141,Destination 141 - Accra,Ghana,Accra,5.7447,-0.045999999999999985,Additional tourist destination near Accra,,tourism|attraction,ar_dest_141,tourism_spot
+extra_0142,Destination 142 - Lagos,Nigeria,Lagos,6.6664,3.5212,Additional tourist destination near Lagos,,tourism|attraction,ar_dest_142,tourism_spot
+extra_0143,Destination 143 - Abuja,Nigeria,Abuja,9.225000000000001,7.6399,Additional tourist destination near Abuja,,tourism|attraction,ar_dest_143,tourism_spot
+extra_0144,Destination 144 - Cape Town,South Africa,Cape Town,-33.7809,18.568099999999998,Additional tourist destination near Cape Town,,tourism|attraction,ar_dest_144,tourism_spot
+extra_0145,Destination 145 - Johannesburg,South Africa,Johannesburg,-26.0591,28.1923,Additional tourist destination near Johannesburg,,tourism|attraction,ar_dest_145,tourism_spot
+extra_0146,Destination 146 - Durban,South Africa,Durban,-29.712699999999998,31.1678,Additional tourist destination near Durban,,tourism|attraction,ar_dest_146,tourism_spot
+extra_0147,Destination 147 - Maputo,Mozambique,Maputo,-25.819200000000002,32.730799999999995,Additional tourist destination near Maputo,,tourism|attraction,ar_dest_147,tourism_spot
+extra_0148,Destination 148 - Harare,Zimbabwe,Harare,-17.6772,31.1815,Additional tourist destination near Harare,,tourism|attraction,ar_dest_148,tourism_spot
+extra_0149,Destination 149 - Lusaka,Zambia,Lusaka,-15.2385,28.4718,Additional tourist destination near Lusaka,,tourism|attraction,ar_dest_149,tourism_spot
+extra_0150,Destination 150 - Gaborone,Botswana,Gaborone,-24.5075,26.0675,Additional tourist destination near Gaborone,,tourism|attraction,ar_dest_150,tourism_spot
+extra_0151,Destination 151 - Windhoek,Namibia,Windhoek,-22.419,17.2346,Additional tourist destination near Windhoek,,tourism|attraction,ar_dest_151,tourism_spot
+extra_0152,Destination 152 - Nairobi,Kenya,Nairobi,-1.1401000000000001,36.9739,Additional tourist destination near Nairobi,,tourism|attraction,ar_dest_152,tourism_spot
+extra_0153,Destination 153 - Mombasa,Kenya,Mombasa,-3.8905,39.8212,Additional tourist destination near Mombasa,,tourism|attraction,ar_dest_153,tourism_spot
+extra_0154,Destination 154 - Dar es Salaam,Tanzania,Dar es Salaam,-6.6384,39.362300000000005,Additional tourist destination near Dar es Salaam,,tourism|attraction,ar_dest_154,tourism_spot
+extra_0155,Destination 155 - Arusha,Tanzania,Arusha,-3.2319,36.838,Additional tourist destination near Arusha,,tourism|attraction,ar_dest_155,tourism_spot
+extra_0156,Destination 156 - Kampala,Uganda,Kampala,0.5036,32.7385,Additional tourist destination near Kampala,,tourism|attraction,ar_dest_156,tourism_spot
+extra_0157,Destination 157 - Kigali,Rwanda,Kigali,-1.7871,30.2189,Additional tourist destination near Kigali,,tourism|attraction,ar_dest_157,tourism_spot
+extra_0158,Destination 158 - Addis Ababa,Ethiopia,Addis Ababa,9.187999999999999,38.898,Additional tourist destination near Addis Ababa,,tourism|attraction,ar_dest_158,tourism_spot
+extra_0159,Destination 159 - Cairo,Egypt,Cairo,30.2034,31.3947,Additional tourist destination near Cairo,,tourism|attraction,ar_dest_159,tourism_spot
+extra_0160,Destination 160 - Alexandria,Egypt,Alexandria,31.3601,30.0787,Additional tourist destination near Alexandria,,tourism|attraction,ar_dest_160,tourism_spot
+extra_0161,Destination 161 - Marrakech,Morocco,Marrakech,31.7905,-7.8201,Additional tourist destination near Marrakech,,tourism|attraction,ar_dest_161,tourism_spot
+extra_0162,Destination 162 - Casablanca,Morocco,Casablanca,33.735099999999996,-7.4278,Additional tourist destination near Casablanca,,tourism|attraction,ar_dest_162,tourism_spot
+extra_0163,Destination 163 - Fez,Morocco,Fez,34.181099999999994,-4.844799999999999,Additional tourist destination near Fez,,tourism|attraction,ar_dest_163,tourism_spot
+extra_0164,Destination 164 - Dakar,Senegal,Dakar,14.8807,-17.3037,Additional tourist destination near Dakar,,tourism|attraction,ar_dest_164,tourism_spot
+extra_0165,Destination 165 - Accra,Ghana,Accra,5.7687,-0.021999999999999992,Additional tourist destination near Accra,,tourism|attraction,ar_dest_165,tourism_spot
+extra_0166,Destination 166 - Lagos,Nigeria,Lagos,6.6904,3.5452,Additional tourist destination near Lagos,,tourism|attraction,ar_dest_166,tourism_spot
+extra_0167,Destination 167 - Abuja,Nigeria,Abuja,9.249,7.6639,Additional tourist destination near Abuja,,tourism|attraction,ar_dest_167,tourism_spot
+extra_0168,Destination 168 - Cape Town,South Africa,Cape Town,-33.7569,18.5921,Additional tourist destination near Cape Town,,tourism|attraction,ar_dest_168,tourism_spot
+extra_0169,Destination 169 - Johannesburg,South Africa,Johannesburg,-26.0351,28.2163,Additional tourist destination near Johannesburg,,tourism|attraction,ar_dest_169,tourism_spot
+extra_0170,Destination 170 - Durban,South Africa,Durban,-29.688699999999997,31.1918,Additional tourist destination near Durban,,tourism|attraction,ar_dest_170,tourism_spot
+extra_0171,Destination 171 - Maputo,Mozambique,Maputo,-25.7952,32.754799999999996,Additional tourist destination near Maputo,,tourism|attraction,ar_dest_171,tourism_spot
+extra_0172,Destination 172 - Harare,Zimbabwe,Harare,-17.6532,31.2055,Additional tourist destination near Harare,,tourism|attraction,ar_dest_172,tourism_spot
+extra_0173,Destination 173 - Lusaka,Zambia,Lusaka,-15.2145,28.4958,Additional tourist destination near Lusaka,,tourism|attraction,ar_dest_173,tourism_spot
+extra_0174,Destination 174 - Gaborone,Botswana,Gaborone,-24.4835,26.0915,Additional tourist destination near Gaborone,,tourism|attraction,ar_dest_174,tourism_spot
+extra_0175,Destination 175 - Windhoek,Namibia,Windhoek,-22.395,17.2586,Additional tourist destination near Windhoek,,tourism|attraction,ar_dest_175,tourism_spot
+extra_0176,Destination 176 - Nairobi,Kenya,Nairobi,-1.1161,36.9979,Additional tourist destination near Nairobi,,tourism|attraction,ar_dest_176,tourism_spot
+extra_0177,Destination 177 - Mombasa,Kenya,Mombasa,-3.8665,39.8452,Additional tourist destination near Mombasa,,tourism|attraction,ar_dest_177,tourism_spot
+extra_0178,Destination 178 - Dar es Salaam,Tanzania,Dar es Salaam,-6.6144,39.3863,Additional tourist destination near Dar es Salaam,,tourism|attraction,ar_dest_178,tourism_spot
+extra_0179,Destination 179 - Arusha,Tanzania,Arusha,-3.2079,36.862,Additional tourist destination near Arusha,,tourism|attraction,ar_dest_179,tourism_spot
+extra_0180,Destination 180 - Kampala,Uganda,Kampala,0.5276000000000001,32.7625,Additional tourist destination near Kampala,,tourism|attraction,ar_dest_180,tourism_spot
+extra_0181,Destination 181 - Kigali,Rwanda,Kigali,-1.7631,30.242900000000002,Additional tourist destination near Kigali,,tourism|attraction,ar_dest_181,tourism_spot
+extra_0182,Destination 182 - Addis Ababa,Ethiopia,Addis Ababa,9.212,38.922000000000004,Additional tourist destination near Addis Ababa,,tourism|attraction,ar_dest_182,tourism_spot
+extra_0183,Destination 183 - Cairo,Egypt,Cairo,30.2274,31.4187,Additional tourist destination near Cairo,,tourism|attraction,ar_dest_183,tourism_spot
+extra_0184,Destination 184 - Alexandria,Egypt,Alexandria,31.3841,30.102700000000002,Additional tourist destination near Alexandria,,tourism|attraction,ar_dest_184,tourism_spot
+extra_0185,Destination 185 - Marrakech,Morocco,Marrakech,31.8145,-7.7961,Additional tourist destination near Marrakech,,tourism|attraction,ar_dest_185,tourism_spot
+extra_0186,Destination 186 - Casablanca,Morocco,Casablanca,33.7591,-7.4038,Additional tourist destination near Casablanca,,tourism|attraction,ar_dest_186,tourism_spot
+extra_0187,Destination 187 - Fez,Morocco,Fez,34.205099999999995,-4.820799999999999,Additional tourist destination near Fez,,tourism|attraction,ar_dest_187,tourism_spot
+extra_0188,Destination 188 - Dakar,Senegal,Dakar,14.9047,-17.279700000000002,Additional tourist destination near Dakar,,tourism|attraction,ar_dest_188,tourism_spot
+extra_0189,Destination 189 - Accra,Ghana,Accra,5.7927,0.0020000000000000018,Additional tourist destination near Accra,,tourism|attraction,ar_dest_189,tourism_spot
+extra_0190,Destination 190 - Lagos,Nigeria,Lagos,6.7144,3.5692,Additional tourist destination near Lagos,,tourism|attraction,ar_dest_190,tourism_spot
+extra_0191,Destination 191 - Abuja,Nigeria,Abuja,9.273000000000001,7.6879,Additional tourist destination near Abuja,,tourism|attraction,ar_dest_191,tourism_spot
+extra_0192,Destination 192 - Cape Town,South Africa,Cape Town,-33.7329,18.6161,Additional tourist destination near Cape Town,,tourism|attraction,ar_dest_192,tourism_spot
+extra_0193,Destination 193 - Johannesburg,South Africa,Johannesburg,-26.0111,28.2403,Additional tourist destination near Johannesburg,,tourism|attraction,ar_dest_193,tourism_spot
+extra_0194,Destination 194 - Durban,South Africa,Durban,-29.6647,31.215799999999998,Additional tourist destination near Durban,,tourism|attraction,ar_dest_194,tourism_spot
+extra_0195,Destination 195 - Maputo,Mozambique,Maputo,-25.7712,32.7788,Additional tourist destination near Maputo,,tourism|attraction,ar_dest_195,tourism_spot
+extra_0196,Destination 196 - Harare,Zimbabwe,Harare,-17.629199999999997,31.2295,Additional tourist destination near Harare,,tourism|attraction,ar_dest_196,tourism_spot
+extra_0197,Destination 197 - Lusaka,Zambia,Lusaka,-15.1905,28.5198,Additional tourist destination near Lusaka,,tourism|attraction,ar_dest_197,tourism_spot
+extra_0198,Destination 198 - Gaborone,Botswana,Gaborone,-24.4595,26.1155,Additional tourist destination near Gaborone,,tourism|attraction,ar_dest_198,tourism_spot
+extra_0199,Destination 199 - Windhoek,Namibia,Windhoek,-22.371,17.282600000000002,Additional tourist destination near Windhoek,,tourism|attraction,ar_dest_199,tourism_spot
