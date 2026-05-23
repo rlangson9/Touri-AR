@@ -118,6 +118,11 @@ class TourismExperienceRequest(BaseModel):
     spot_id: str
     language: str = "en"
 
+class ChatRequest(BaseModel):
+    user_id: str
+    messages: List[Dict]
+    mode: Optional[str] = "general"
+
 @app.get("/")
 async def root():
     return {
@@ -176,6 +181,27 @@ async def batch_translate(request: BatchTranslationRequest):
                 "translated_text": r.translated_text,
                 "confidence": r.confidence
             } for r in results]
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/chat", response_model=Dict)
+async def chat(request: ChatRequest):
+    try:
+        response = MODEL.chat(
+            request.user_id,
+            request.messages,
+            request.mode or "general"
+        )
+        return {
+            "success": True,
+            "response": response.content,
+            "intent": response.intent,
+            "confidence": response.confidence,
+            "suggestions": response.suggestions,
+            "related_actions": response.related_actions,
+            "language_detected": response.language_detected,
+            "source": "touri_ai"
         }
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))

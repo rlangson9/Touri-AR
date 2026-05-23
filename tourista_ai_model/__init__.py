@@ -14,6 +14,7 @@ from tourista_ai_model.risk_analysis.engine import RiskAnalysisEngine, RiskAsses
 from tourista_ai_model.risk_analysis.ml_engine import MLRiskAnalysisEngine
 from tourista_ai_model.ar_recognition.engine import ARSceneRecognitionEngine, ARMarker, SceneRecognitionResult, ProductPreview
 from tourista_ai_model.ar_recognition.ml_engine import MLARRecognitionEngine
+from tourista_ai_model.chat.engine import ChatEngine, ChatMessage, ChatResponse
 from tourista_ai_model.data_loader import DataLoader
 from tourista_ai_model.dataset_integration import SemanticDatasetValidator, DatasetTrainer, run_complete_dataset_integration
 
@@ -30,6 +31,13 @@ class TouristaAIModel:
         self.recommendation_engine = MLRecommendationEngine()
         self.risk_engine = MLRiskAnalysisEngine()
         self.ar_engine = MLARRecognitionEngine()
+        self.chat_engine = ChatEngine(
+            translation_engine=self.translation_engine,
+            matching_system=self.matching_system,
+            recommendation_engine=self.recommendation_engine,
+            risk_engine=self.risk_engine,
+            ar_engine=self.ar_engine
+        )
         self._initialize_system()
 
     def _initialize_system(self):
@@ -42,6 +50,7 @@ class TouristaAIModel:
         print("  ✓ Recommendation Engine")
         print("  ✓ Risk Analysis Engine")
         print("  ✓ AR Scene Recognition Engine")
+        print("  ✓ Chat Engine (Touri AI Assistant)")
         print("\nSystem Ready")
 
     def translate(self, text: str, source_lang: str, target_lang: str,
@@ -88,6 +97,9 @@ class TouristaAIModel:
     def get_tourism_experience(self, spot_id: str, language: str = "en") -> dict:
         return self.ar_engine.get_tourism_experience(spot_id, language)
 
+    def chat(self, user_id: str, messages: list, mode: str = "general") -> ChatResponse:
+        return self.chat_engine.generate_response(user_id, messages, mode)
+
     def get_system_info(self) -> dict:
         return {
             "model_name": self.config.model_name,
@@ -102,7 +114,8 @@ class TouristaAIModel:
                 "Cross-border Trade Recommendations",
                 "Risk Assessment for Cash Payments",
                 "AR Scene Recognition & Product Preview",
-                "Tourism Experience Enhancement"
+                "Tourism Experience Enhancement",
+                "AI Chat Assistant (Touri AI)"
             ],
             "specializations": [
                 "China-Africa Trade Intelligence",
@@ -122,7 +135,8 @@ class TouristaAIModel:
                 "matching": "operational",
                 "recommendation": "operational",
                 "risk_analysis": "operational",
-                "ar_recognition": "operational"
+                "ar_recognition": "operational",
+                "chat": "operational"
             },
             "timestamp": "2024-01-01T00:00:00Z"
         }
